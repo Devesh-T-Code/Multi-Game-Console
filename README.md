@@ -6,9 +6,9 @@ Overview:
 
 This project is a Python-based console game application that combines three popular mini-games into one program:
 
-    1.)Rock-Paper-Scissors
-    2.)Heads or Tails
-    3.)Hand Cricket
+1.)Rock-Paper-Scissors
+2.)Heads or Tails
+3.)Hand Cricket
 The user interacts with the program via a text-based interface, selecting games, making decisions, and competing against the computer in an engaging and fun manner.
 
 Key Features
@@ -29,7 +29,7 @@ Error Handling:
 The program includes robust input validation and gracefully exits on invalid inputs with a message.
 
 Games Overview
-    1. Rock-Paper-Scissors
+1. Rock-Paper-Scissors
         Objective: Score 3 points before the computer.
         Rules:
             1.)Rock beats Scissors.
@@ -42,7 +42,7 @@ Games Overview
             4.)The game continues until one player scores 3 points.
     Outcome: Victory is declared based on scores.
 
-    2. Heads or Tails
+2. Heads or Tails
         Objective: Guess the outcome of a coin flip.
         Rules:
             1.)Player chooses Head or Tail.
@@ -53,7 +53,7 @@ Games Overview
             2.)The computer simulates a coin flip and reveals the result.
     Outcome: Success or failure is displayed immediately.
 
-    3. Hand Cricket
+3. Hand Cricket
         Objective: Score more runs than the computer.
         Rules:
             1.)The game starts with a toss (Odd/Even selection).
@@ -68,7 +68,7 @@ Games Overview
 
 Code Structure:
 
-    Main Functionality:
+ Main Functionality:
 T       1.)he main() function drives the program, displaying the game menu and handling user choices.
         2.)It utilizes the match-case construct to route users to their selected game.
     Game Logic Functions:
@@ -84,7 +84,7 @@ T       1.)he main() function drives the program, displaying the game menu and h
                 toss_result(): Determines the outcome of the toss in Hand Cricket.
                 bat(), bowl(), result(), and target(): Handle Hand Cricket-specific gameplay.
 
-    Input Validation and Error Handling:
+Input Validation and Error Handling:
         1.)The program uses try-except blocks to prevent crashes due to invalid inputs.
         2.)Exits gracefully with an error message if an invalid choice is detected.
 
